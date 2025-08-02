@@ -28,8 +28,10 @@ for key in extension_dictionary.keys():
         os.mkdir(extension_directory + key)
         log_list += [(f'Created Directory {extension_dictionary + key}')]
     except FileExistsError:
+        print((f'Directory {extension_directory + key} already exists'))
         log_list += [(f'Directory {extension_directory + key} already exists')]
     except FileNotFoundError:
+        print(f'{extension_directory} does not exist')
         log_list += [(f'{extension_directory} does not exist')]
 
 #step 3 - move the files to the correct directory

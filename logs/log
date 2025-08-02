@@ -1,3 +1,7 @@
 [
+    "Directory ext_directory/csv already exists",
+    "Directory ext_directory/mpeg already exists",
+    "Error moving test_csv.csv: Destination path 'ext_directory/csv/test_csv.csv' already exists",
+    "Moved test_video.mpeg to ext_directory/mpeg",
     "test_sub_directory is a directory"
 ]
