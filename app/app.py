@@ -6,7 +6,7 @@ gifs_directory = 'gifs'
 images_directory ='images'
 videos_directory = 'videos'
 
-log_directory = '/Users/will_tang/Documents/GitHub/file_organizer/logs/log.yaml'
+log_directory = '/logs/log.yaml'
 
 #extention dictionary
 extension_dictionary = {images_directory : ['.jpg','.png'], 
