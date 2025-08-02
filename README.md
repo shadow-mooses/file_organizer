@@ -12,6 +12,6 @@ app_v2.py creates directories based on the extension and then moves the files to
 
 ## Future features
 These udpates have been made for V2
-- [ ] better error handling/log keeping - try/except blocks aren't printing to the log
+- [x] better error handling/log keeping - try/except blocks aren't printing to the log
 - [ ] move files in sub-directories recursively - need to figure out how to do this with the DRY principle.
 - [x] create directories based on the extensions. You would only provide a source directory to search and the application would make directories based on the extensions.
